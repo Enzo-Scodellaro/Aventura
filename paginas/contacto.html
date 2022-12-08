@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura Experiencias</title>
+    <link rel="stylesheet" href="../styles/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="grilla_contacto">
+        <div class="header_background">
+            <header class="header">
+                <a href="../index.html" class="header_logo">Aventura</a>
+                <span id="menu">🍔</span>
+                <nav class="nav">
+                    <ul class="nav_lista">
+                        <li class="nav_lista_item"><a href="propuestas.html">Propuestas</a></li>
+                        <li class="nav_lista_item"><a href="acercade.html">Acerca de</a></li>
+                        <li class="nav_lista_item"><a href="contacto.html">Contacto</a></li>
+                        <li class="nav_lista_item"><a href="login.html">Log In</a></li>
+                    </ul>     
+                </nav>
+            </header>
+            <div class="contacto_tarjeta-contenedor">
+                <div class="etiqueta_contenedor">
+                    <h1 class="etiqueta_titulo">Contacto</h1>
+                    <h2 class="etiqueta_subtitulo">¿Cuál es tu próxima Aventura?</h2>
+                    <p class="etiqueta_parrafo">Llena el formulario a continuación y nos pondremos en contacto para hacer que tu experiencia sea inolvidable</p>
+                </div>
+            </div>
+        </div>
+        <div class="form_contenedor">
+            <form>
+                <fieldset>
+                    <label for="first-name">Nombre Completo: <input id="first-name" name="first-name" type="text" required /></label>
+                    <label for="email">Email: <input id="email" name="email" type="email" required /></label>
+                    <label for="Celular">Celular: <input id="Celular" name="Celular" type="tel" required /></label>
+                </fieldset>
+                <fieldset>
+                    <span>Género</span>
+                    <label for="masculino"><input id="masculino" type="radio" name="genero" class="enlinea" /> Masculino</label>
+                    <label for="femenino"><input id="femenino" type="radio" name="genero" class="enlinea" /> Femenino</label>
+                    <label for="otro"><input id="otro" type="radio" name="genero" class="enlinea" /> Otro</label>
+                </fieldset>
+                <fieldset>
+                    <label for="destino">Cuál es tu Aventura de Interés?
+                        <select id="destino" name="destino">
+                          <option value="">(Elegí una opción)</option>
+                          <option value="1">Sri Lanka</option>
+                          <option value="2">Nazaré-Portugal</option>
+                          <option value="3">Costa Rica</option>
+                          <option value="4">Moliets-Francia</option>
+                        </select>
+                    </label>
+                      <label for="plan">Cuál es el plan ideal para vos?
+                        <select id="plan" name="plan">
+                          <option value="1">(Elegí una opción)</option>
+                          <option value="2">Pure-Camp</option>
+                          <option value="3">Gold</option>
+                          <option value="4">Platino</option>
+                        </select>
+                      </label>
+                      <label for="consultas">De qué otra forma podemos ayudarte?:
+                        <textarea id="consultas" name="consulta" rows="3" cols="30" placeholder="#ViajoConAventura..."></textarea>
+                      </label>
+                      <label for="terms-and-conditions">
+                        <input id="terms-and-conditions" type="checkbox" required  class="enlinea" /> He leído y acepto los <a href="https://www.youtube.com/watch?v=IvwS6BYjHG0">términos y condiciones</a>
+                </fieldset>
+                
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footer_contenedor">
+                <div class="footer_ul">
+                    <ul>
+                        <li>Aventura LLC</li>
+                        <li>© Copyright 2022 Aventura LLC </li>
+                        <li>Trabajá con nosotros</a></li>
+                        <li>Made in Córdoba-Argentina papá</li>
+                    </ul>
+                </div>
+                <div class="footer_redes">
+                    <img id="instagram" src="../recursos/instagram.png" alt="logo ig">
+                    <img id="twitter" src="../recursos/twitter.png" alt="logo twitter">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

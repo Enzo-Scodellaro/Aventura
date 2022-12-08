@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura Experiencias</title>
+    <link rel="stylesheet" href="../styles/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&family=Roboto:ital,wght@0,300;1,100;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header_background">
+        <header class="header">
+            <a href="../index.html" class="header_logo">Aventura</a>
+            <span id="menu">🍔</span>
+            <nav class="nav">
+                <ul class="nav_lista">
+                    <li class="nav_lista_item"><a href="propuestas.html">Propuestas</a></li>
+                    <li class="nav_lista_item"><a href="acercade.html">Acerca de</a></li>
+                    <li class="nav_lista_item"><a href="contacto.html">Contacto</a></li>
+                    <li class="nav_lista_item"><a href="login.html">Log In</a></li>
+                </ul>     
+            </nav>
+        </header>
+        <div class="contacto_tarjeta-contenedor">
+            <div class="etiqueta_contenedor">
+                <h1 class="etiqueta_titulo">LOG IN</h1>
+                <h2 class="etiqueta_subtitulo">¿Qué estás esperando? </h2>
+                <p class="etiqueta_parrafo">Sumate a la comunidad. + de 52.000 aventureros te están esperando</p>
+            </div>
+        </div>
+    </div>
+    <main>
+        <section>
+            <div class="login_titulo">
+                <h2>Ingresá</h2>
+            </div>  
+            <form>  
+                <div class="container">   
+                    <div class="container_articulo">
+                        <label for="usuario">Usuario:<input id="usuario" type="text" placeholder="Ingresar Usuario" name="username" required></label> 
+                    </div> 
+                    <div class="container_articulo">
+                        <label for="clave">Password :   <input id="clave" type="password" placeholder="Ingresar contraseña" name="password" required></label>
+                    </div>  
+                    <div class="container_conf">
+                        <label id="label-recordar" for="recordar">Remember me <input  class="enlinea"  id="recordar" type="checkbox" checked="checked"></label>
+                        <a class="forgot" href="#">Forgot password? </a>
+                    </div>   
+                    <button id="login" type="submit">Login</button>  
+                </div>   
+            </form>     
+        </section>
+        <section class="premium">
+            <div class="premium_titulo">
+                <h2>Sentite Premium</h2>
+            </div>
+            <div class="premium_articulo_contenedor">
+                <div class="premium_articulo_video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/OuzrpiBKJf4?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="premium_articulo_texto">
+                    <p>Hacete Premium y disfruta de paquetes All Inclusive alrededor del mundo. 
+                    Así como Meet and Greets  y Eventos especiales con exponentes del mundo
+                    deportivo y prácticas para el bienestar personal.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer_contenedor">
+                <div class="footer_ul">
+                    <ul>
+                        <li>Aventura LLC</li>
+                        <li>© Copyright 2022 Aventura LLC </li>
+                        <li>Trabajá con nosotros</a></li>
+                        <li>Made in Córdoba-Argentina papá</li>
+                    </ul>
+                </div>
+                <div class="footer_redes">
+                    <img id="instagram" src="../recursos/instagram.png" alt="logo ig">
+                    <img id="twitter" src="../recursos/twitter.png" alt="logo twitter">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
