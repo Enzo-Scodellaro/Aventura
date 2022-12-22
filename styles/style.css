@@ -41,37 +41,22 @@ a{
     background-size: cover;
     background-repeat:no-repeat ;
     /* background-attachment: scroll; */
-    /* position: fixed; */
+    position:sticky;
     height: 130px;
 
 }
-#menu{
-    display: none;
+.navbar{
+    width:100%
+}
+.navbar-collapse{
+    flex-grow:initial;  
+}
+.nav-link{
+    color: #5A4216;
+    font-size: 1.3rem;
 }
 
-.header_logo{
-    text-decoration: none;
-    font-size: 18px;
-    color: black;
-    background-color: blanchedalmond;
-    border: solid blanchedalmond 8px;
-    border-radius: 6px;
-}
-.nav_lista{
-    display: flex;
-}
-.nav_lista_item{
-    margin: 0 15px;
-    list-style: none;
-}
-.nav_lista_item a{
-    text-decoration: none;
-    font-size: 18px;
-    color: brown;
-    background-color: whitesmoke;
-    border: solid whitesmoke 5px;
-    border-radius: 5px;
-}
+
 /*FIN HEADER*/
 /*INICIO TARJETA----------------------------------------------------------------------------------------------------------------*/
 .tarjeta{
@@ -80,7 +65,7 @@ a{
     justify-content: center;
     align-self: center;
     height: auto;
-    padding-top: 30px;
+    padding-top: 100px;
     justify-items: center;
 
 
@@ -329,15 +314,11 @@ footer{
     align-self: center;
 }
 
-.footer_redes #instagram{
-    width: 50px;
-    height: 50px;
-
+.bi{
+    font-size: 2rem;
 }
-
-.footer_redes #twitter{
-    width: 50px;
-    height: 50px;
+.bi:hover{
+    color: lightskyblue;
 }
 
 /*FIN FOOTER----------------------------------------------------------------------------------------------------------------*/
