@@ -65,8 +65,9 @@ a{
     justify-content: center;
     align-self: center;
     height: auto;
-    padding-top: 100px;
+    padding: 400px 0;
     justify-items: center;
+    margin-top: 130px;
 
 
 }
@@ -140,6 +141,7 @@ a{
 
 .favoritos{
     padding-top: 100px;
+    margin-top: 130px;
     /* border: solid red 5px; */
 }
 .favoritos_contenedor h3{
@@ -725,9 +727,92 @@ input[type="submit"] {
         max-width: 450px;
         text-align: center;
     }
+    .contenedor_padre_articulo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    div .contenedor_articulo{
+        display:inline-block;
+        padding: 0 auto;
+        /* justify-self: center; */
+    }
+    .contenedor_articulo_img{
+        display: flex;
+        justify-content:center;
+        margin: 0 auto;
+    }
+    .contenedor_articulo_texto p{
+        text-align: justify;
+        letter-spacing: 0.8px;
+        line-height: 25px;
+    }
+    .sobrenosotros_contenedor{
+        padding: 20px 20px;
+    }
+    .trayectoria_contenedor{
+        padding: 20px 20px;
+    }
+    .trayectoria_contenedor img{
+        width: 600px;
+        height: auto;
+    }
+    .trayectoria_contenedor_texto{
+        padding-top:20px;
+    }
+    .motivos_contenedor{
+        padding: 20px 20px;
+    }
+    .motivos_contenedor-flex{
+        display: inline-block;
+    }
+    .motivos_texto{
+    display: flex;
+    min-height: 250px;
+    align-items: center;
+    text-align: justify;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Roboto', serif;
+    letter-spacing: 0.8px;
+    line-height: 25px;
+    max-width: none;
+    }
+    #motivos_img{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        
+    }
+    #motivos_img img{
+        display: flex;
+        width: 600px;
+        height: auto;
+    }
+    
 
 }
 /*LISTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+@media screen and (max-width:992px){
+    .premium_articulo_contenedor{
+        display: block;
+    }
+    .premium_articulo_video{
+        margin: 0 auto;
+        width: fit-content;
+    }
+    .premium_articulo_texto{
+        margin: 0 auto;
+        max-width:  561px;
+    }
+    .premium_titulo{
+        max-width:561px ;
+    }
+    .login_titulo{
+        max-width:561px ;
+    }
+}
+
 @media screen and (max-width:768px){
     #menu{
         display: flex;
@@ -809,6 +894,14 @@ input[type="submit"] {
         max-width: 400px;
         text-align: center;
     }
+    .trayectoria_contenedor img{
+        width: 480px;
+        height: auto;
+    }
+    #motivos_img img{
+        width: 480px;
+        height: auto;
+    }
 
 }
 /*-------------------------------------------------------------------------------------------------------------------------*/
@@ -874,6 +967,23 @@ input[type="submit"] {
         font-weight: 500px;
         max-width: 350px;
         text-align: center;
+    }
+    .premium_titulo{
+        max-width:400px ;
+    }
+    .login_titulo{
+        max-width:400px ;
+    }
+    #video_login{
+        width: 440px;
+    }
+    .premium_articulo_texto{
+        margin: 0 auto;
+        max-width:  440px;
+    }
+    .bi{
+        font-size: 2rem;
+        margin: 0 1px;
     }
 
 }
