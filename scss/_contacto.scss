@@ -1,0 +1,98 @@
+/******************************* INCIO CONTACTO.HTML*************************************************************************/
+/*TARJETA CONTACTO----------------------------------------------------------------------------------------------------------*/
+.contacto_tarjeta-contenedor{
+    background: linear-gradient(to bottom, rgba(190,236,227,1) 0%, rgba(236,225,191,1) 39%, rgba(34,108,195,0.7962535355939251) 71%, rgba(34,108,195,0.8998949921765581) 94%);
+    padding: 40px 0;
+}
+.etiqueta_parrafo{
+    width:fit-content;
+    justify-items: center;
+    color: white;
+    background-color: whitesmoke;
+    color: #5A4216;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: normal;
+    transition: letter-spacing 0.7s ease-in-out 0.1s;
+    border: solid whitesmoke 6px;
+    border-radius: 8px;
+    margin: 30px auto;
+}
+/*FORMULARIO-----------------------------------------------------------------------------------------------------------------*/
+.form_contenedor{
+    display: flex;
+    background-image:url(../recursos/back-contacto.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height:auto;
+    min-height: 600px;
+    align-items: center;
+}
+form {
+    box-sizing: border-box;
+    width: 60vw;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 0px auto;
+    color: whitesmoke;
+    padding-bottom: 30px;
+  }
+
+ form fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid rgba(167,209,218,1);
+}
+form fieldset:last-of-type {
+    border-bottom: none;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+    background-color: rgba(232,226,210,1);
+    border: 1px solid rgba(232,226,210,1);
+    color: black;
+    font-weight: 800;
+  }
+
+input:focus,textarea:focus{
+    border: none;
+}
+
+.enlinea {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+label input a{
+    color: white;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgba(232,226,210,1);
+    border-color: white;
+    min-width: 300px;
+    color: chocolate;
+  }
+  span,label{
+    font-weight: 800;
+  }
+/*FIN FORMULARIO--------------------------------------------------------------------------------------------------------------*/

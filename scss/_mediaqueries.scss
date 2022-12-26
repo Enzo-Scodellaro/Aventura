@@ -1,0 +1,112 @@
+@media screen and (max-width:600px){
+    .header{
+        margin: 0 auto;
+        padding: 40px 50px;
+        height: 80px;
+    }
+    .etiqueta_titulo{
+        font-size: 12px;
+    }
+    .etiqueta_subtitulo{
+        font-size: 10px;
+        max-width:460px;
+    }
+    .etiqueta_contenedor-boton{
+        font-size:10px; ;
+    }
+    .nuevos_contendor--img{
+        margin: 0 auto;
+        width: 220px;
+        align-self: center;
+
+    }
+    .nuevos_contendor--img img{
+        align-self: center;
+        border-radius: 15px;
+        width: 220px;
+        height: auto;
+    }
+    .nuevos_informacion{
+        padding: 15px 15px 15px 15px;
+        font-size: 10px;
+    }
+    .favoritos_articulos_item{
+        padding: 40px 0;
+    }
+    .footer_ul ul{
+        display: inline-block;
+
+    }
+    .footer_ul ul li{
+        margin: 0 3px;
+        font-size: 8px;
+        padding: 0 0;
+
+
+    }
+    .footer_contenedor{
+        align-self: center;
+        display: flex;
+        /* padding-bottom: 30px; */
+        margin: 0 auto;
+        padding: 5px 0 5px 25px;
+
+    }
+    .footer_redes{
+        width: 60px;
+    }
+    .etiqueta_parrafo{
+        font-size: 0.8rem;
+        font-weight: 500px;
+        max-width: 350px;
+        text-align: center;
+    }
+    .premium_titulo{
+        max-width:400px ;
+    }
+    .login_titulo{
+        max-width:400px ;
+    }
+    #video_login{
+        width: 440px;
+    }
+    .premium_articulo_texto{
+        margin: 0 auto;
+        max-width:  440px;
+    }
+    .bi{
+        font-size: 2rem;
+        margin: 0 1px;
+    }
+
+}
+/*HASTA HOY-----------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:480px){
+    .etiqueta_titulo{
+        max-width: 320px;
+        font-size: 9px;
+    }
+    .etiqueta_subtitulo{
+        max-width: 320px;
+        font-size: 8px;
+    }
+    #grilla_contenedor{
+
+        background-image:none;
+
+    }
+    .index{
+        background: linear-gradient(90deg, rgba(190,144,75,1) 15%, rgba(232,226,210,1) 45%, rgba(167,209,218,1) 100%);
+    }
+    .etiqueta_parrafo{
+        font-size: 0.8rem;
+        font: weight 500px;
+        max-width: 315px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:320px){
+    p{
+        color: red;
+    }
+}

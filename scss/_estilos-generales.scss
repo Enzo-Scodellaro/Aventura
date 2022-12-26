@@ -1,0 +1,93 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+a{
+    text-decoration: none;
+    font-style: none;
+
+}
+
+/*HEADER*/
+.header{
+    /* border: solid red 5px; */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1400;
+    margin: 0 auto;
+    padding: 40px 120px;
+    background-image: url(https://img.freepik.com/foto-gratis/superficie-madera-erosionada_1249-32.jpg?w=1060&t=st=1669869243~exp=1669869843~hmac=6bdaf49529bd64542954dda7480c5d29d476beec9a29911b3cfd028caefe909b);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    /* background-attachment: scroll; */
+    position:sticky;
+    height: 130px;
+
+}
+.navbar{
+    width:100%
+}
+.navbar-collapse{
+    flex-grow:initial;  
+}
+.nav-link{
+    color: #5A4216;
+    font-size: 1.3rem;
+}
+
+
+/*FIN HEADER*/
+/*FOOTER--------------------------------------------------------------------------------------------------------------------*/
+footer{
+    background-color: #faebd7;
+    height: 150px;
+}
+.footer{
+    background-color: antiquewhite;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    .footer_contenedor{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+        .footer_ul{
+            align-self: center;
+            font-size: 11px;
+            display: flex;
+        }
+
+            .footer_ul ul{
+                list-style: none;
+                text-decoration: none;
+                display: flex;
+            }
+                li{
+                    margin: 0 15px;
+                }
+        .footer_redes{
+            width: 150px;
+            display: flex;
+            justify-content:space-between;
+            align-self: center;
+        }
+            .bi{
+                font-size: 2rem;
+                    &:hover{
+                        color: lightskyblue;
+                    }
+            }
+                
+        
+}
+
+/*FIN FOOTER----------------------------------------------------------------------------------------------------------------*/
