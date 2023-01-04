@@ -1,0 +1,10 @@
+@mixin titulos{
+    width:fit-content;
+    justify-items: center;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+    border: solid whitesmoke 6px;
+    transition: letter-spacing 0.7s ease-in-out 0.1s;
+    letter-spacing: normal;
+}

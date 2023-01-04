@@ -33,15 +33,14 @@
 .etiqueta_titulo {
   width: fit-content;
   justify-items: center;
-  color: white;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
   background-color: whitesmoke;
+  border: solid whitesmoke 6px;
+  transition: letter-spacing 0.7s ease-in-out 0.1s;
+  letter-spacing: normal;
   color: #5A4216;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: normal;
-  transition: letter-spacing 0.7s ease-in-out 0.1s;
-  border: solid whitesmoke 6px;
-  border-radius: 8px;
   margin: 0 auto;
 }
 .etiqueta_titulo:hover {
@@ -49,21 +48,16 @@
 }
 
 .etiqueta_subtitulo {
-  margin: 0 auto;
   width: fit-content;
-  margin-top: 30px;
-  color: chocolate;
-  background-color: whitesmoke;
-  /* padding-left: 30px; */
-  /* margin: 0px 0px; */
-  border: solid whitesmoke 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  justify-items: center;
+  border-radius: 8px;
   font-family: "Roboto", sans-serif;
-  letter-spacing: normal;
+  background-color: whitesmoke;
+  border: solid whitesmoke 6px;
   transition: letter-spacing 0.7s ease-in-out 0.1s;
+  letter-spacing: normal;
+  margin: 15px auto;
+  color: chocolate;
 }
 .etiqueta_subtitulo:hover {
   letter-spacing: 2px;
@@ -93,14 +87,10 @@
 .favoritos {
   padding-top: 100px;
   margin-top: 130px;
-  /* border: solid red 5px; */
 }
 
 .favoritos_contenedor h3 {
-  /* display: flex;
-  justify-content: center; */
   padding-left: 100px;
-  /* border: solid red 1px; */
 }
 
 #favoritos_titulo {
