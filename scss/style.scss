@@ -192,14 +192,20 @@
 }
 .sobrenosotros_texto{
     display: flex;
-    min-height: 150px;
     align-items: center;
     text-align: justify;
     padding: 0 15px;
-    font-size: 20px;
     font-family: 'Roboto', serif;
-    letter-spacing: 1px;
     line-height: 25px;
+    min-height: 150px;
+    font-size: 20px;
+    letter-spacing: 1px; 
+}
+.trayectoria_contenedor_texto{
+   @extend .sobrenosotros_texto;
+    min-height: 250px;  
+    font-size: 17px;  
+    letter-spacing: 0.8px;   
 }
 
 .trayectoria_contenedor{
@@ -216,17 +222,7 @@
     width: 800px;
     height: auto;
 }
-.trayectoria_contenedor_texto{
-    display: flex;
-    min-height: 250px;
-    align-items: center;
-    text-align: justify;
-    padding: 0 15px;
-    font-size: 17px;
-    font-family: 'Roboto', serif;
-    letter-spacing: 0.8px;
-    line-height: 25px;
-}
+
 
 .motivos_contenedor{
     max-width: 1400px;
@@ -256,4 +252,6 @@
 /**************************************************FIN acercade.html****************************************************/
 
 
+/*MEDIA QUERIES--------------------------------------------------------------------------------------------------------------*/
 
+/*-------------------------------------------------------------------------------------------------------------------------*/
