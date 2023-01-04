@@ -14,7 +14,6 @@ a{
 /*HEADER*/
 .header{
     /* border: solid red 5px; */
-    display:flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -24,9 +23,8 @@ a{
     background-image: url(https://img.freepik.com/foto-gratis/superficie-madera-erosionada_1249-32.jpg?w=1060&t=st=1669869243~exp=1669869843~hmac=6bdaf49529bd64542954dda7480c5d29d476beec9a29911b3cfd028caefe909b);
     background-size: cover;
     background-repeat:no-repeat ;
-    /* background-attachment: scroll; */
-    position:sticky;
-    height: 130px;
+    
+    
 
 }
 .navbar{
@@ -53,6 +51,7 @@ footer{
     height: 100%;
     display: flex;
     width: 90%;
+    position: sticky;
     margin: 0 auto;
     justify-content: space-between;
     .footer_contenedor{
